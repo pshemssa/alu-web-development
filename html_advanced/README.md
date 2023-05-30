@@ -4,6 +4,6 @@
 <title></title>
 </head>
 <body>
-<p>in this project, i will focus on HTML structure only - no CSS, no style - just pure HTML semantic.</p>
+<p> In this project, I will focus on HTML structure only - no CSS, no style - just pure HTML semantics.</p>
 </body>
 </html>
