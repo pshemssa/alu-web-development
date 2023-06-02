@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+        <body>
+            <p>philip.jpg<img src="C:\Users\Hp\Downloads\philip.jpg"></p>
+            <p>Nannie.jpg<img src="C:\Users\Hp\Downloads\nannie.jpg"></p>
+            <p>Bruce.jpg<img src="C:\Users\Hp\Downloads\bruce.jpeg"></p>
+            <p>Henry.jpg<img src="C:\Users\Hp\Downloads\henry.jpeg"></p>
+            <p>shemssa.jpg<img src="C:\Users\Hp\Downloads\PXL_20221015_235842260.PORTRAIT_2.jpg"></p>
+            <p>facebook.jpg<img src="C:\Users\Hp\Downloads\facebook.jpg"></p>
+            <p>instagram.jpg<img src="C:\Users\Hp\Downloads\instagram.jpg"></p>
+            <p>twitter.png<img src="C:\Users\Hp\Downloads\tweeter,jpg.png"></p>
+</body>
+</html>
