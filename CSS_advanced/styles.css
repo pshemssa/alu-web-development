@@ -1,231 +1,380 @@
-
-header {
+.container {
   display: flex;
-  flex-direction: row;
-  flex: auto;
-  background-image: url(images/Beritha.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: grayscale(100%);
-  padding: 2% 5% 2% 5%;
-  position: absolute;
-  left: -0.025%;
-  right: -0.025%;
-  top: 0%;
-  justify-content: space-between;
-  bottom: -26.48%;
-  
-  
+  justify-content: center;
 }
-.mainbar {
-  font-weight: 700;
+.background {
+  background-image: url('../assets/background.png');
+  background-size: 100%;
+  width: 1440px;
+  height: 1093px;
+}
+
+.logo {
+  position: absolute;
+  left: 167px;
+  top: 35px;
+}
+.menu {
+  position: absolute;
+  width: 234px;
+  height: 15px;
+  left: 1041px;
+  top: 37px;
+  font-family: 'Source Sans Pro';
   font-size: 12px;
-  line-height: 15px;
-  color: #FFFFFF;
-  padding-right: 53px;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-decoration-color: white;
-  
-}
-.mainbar a
-{
-  color:#FFFFFF;
-  font-weight: 900;
-
-}
-
-.head a {
-  color: #FFFFFF;
-  font-weight: 900;
-  margin-bottom: 20%;
-
-
-}
-.head {
-  position: relative;
-  right: 36px;
-}
-
-.school {
-  display: flex;
-  flex-direction: column;
-  padding-top: 5rem;
-}
-
-.school>h1 {
-  height: 151px;
-  font-weight: 700;
-  font-size: 120px;
-  line-height: 151px;
-  text-align: center;
-  color: #ffffff;
-  z-index: 20;
-}
-
-.school>p {
-  height: 20px;
-  position: relative;
-  margin-top: -5%;
-  text-align: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-around;
-  margin-left: 38%;
-  margin-right: 38%;
-  word-spacing: 5px;
-}
-
-.school>button {
-  background: #c271ff;
-  border-radius: 25px;
+  font-weight: bold;
+  }
+  .menu a {
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+  }
+  .banner {
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    color: white;
+    font-family: Source Sans Pro;
+  }
+  .banner h1 {
+    text-align: center;
+    margin-top: 220px;
+    font-weight: bold;
+    font-size: 120px;
+  }
+  .banner h2 {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 300;
+    top: 631px;
+    left: 604px;
+  }
+  .subtitle {
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    left: 41.18%;
+    top: calc(50% - 20px/2 - 175.5px);
+  }
+  .subtitle p {
+    display: inline;
+    padding-inline-end: 65px;
+  }
+.button {
   border: none;
-  padding: 0.7rem;
-  color: white;
-  font-weight: 500;
-  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.5);
-  position: relative;
-  align-self: center;
-  margin: 2rem;
-  padding: 1rem;
-  font-size: 10px;
-}
-
-.element {
-  padding: 1%;
-  display: flex;
-  position: relative;
-  margin-top: 20px;
-}
-
-.element>h2 {
-  align-self: center;
-  padding: 2rem;
-  font-weight: 300;
-  line-height: 40px;
-  margin-bottom: 22%;
-}
-
-.grid {
-  position: absolute;
-  font-size: 22px;
-  left: 41%;
-  right: 39%;
-  color: #fff;   
-}
-.dcolor{
-  color: #c271ff;
-}
-
-.mysongs
-{
-  display: flex;
-  margin-top: 20px;
-  position: relative;
-
-}
-.grid
-{
- position: absolute;
- font-size: 22px;
- left: 41%;
- right: 39%;
- color: #fff;
-
-}
-.purple
-{
-  color: purple;
-}
-.smile
-{
-  flex-direction: row;
-  padding-top: 100px;
-  left: 10%;
-  padding-left: 40px; 
-  padding-right: 50px; 
-  position: relative;
-  padding-top: 40px;
-  
-}
-.smile h3
-{
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  color: beige;
-  margin-bottom: -10%;
-
- 
-}
-.smile p
-{
-  color:#c271ff;
-
-  font-style:arial
-}
-.smile img
-{
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  
-}
-.smile p
-{
-  font-style: italic;
-  font-size: 16px;
-  font-weight: 400;
-  color: aqua,
-
-}
-
-header img{
-  border-radius: 50%
-
-}
-.quote{
-  
-  
-  text-align: center;
-  display:flex;
-  flex-direction: row;
-  text-align: justify;
-
-  
-
-}
-.quotehead {
+  cursor: pointer;
   background-color: #c271ff;
-  padding: 0% 0% 0% 0%;
-}
-.quote img{
-  border-radius: 50%;
-  margin: auto
-  
-  
-  
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  color: white;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+   }
+   .banner button {
+    position: absolute;
+    left: 44.38%;
+    top: 38.33%;
+   }
+   .pros {
+     position: absolute;
+     top: 758px;
+     text-align: center;
+   }
+   .pro1 {
+     position: absolute;
+     left: 217px;
+     width: 150px;
+   }
+   .pro2 {
+    position: absolute;
+    left: 506px;
+    width: 150px;
+  }
+  .pro3 {
+    position: absolute;
+    left: 787px;
+    width: 150px;
+  }
+  .pro4 {
+    position: absolute;
+    left: 1076px;
+    width: 150px;
+  }
+  .pro4 h3, .pro1 h3, .pro3 h3 {
+    left: 10%;
+  }
 
-  
+   .pros img{
+     width: 150px;
+     height: 150px;
+   }
+   .pros p {
+     font-style: italic;
+     font-size: 16px;
+     font-weight: 300;
+     position: absolute;
+     text-align: center;
+     top: 110%;
+   }
+   .pros h3 {
+     position: absolute;
+     font-weight: 900;
+     top: 90%;
+     line-height: 27px;
+     text-align: center;
+   }
+   .quote {
+    
+     background-color: #c271ff;
+     position: absolute;
+     width: 1440px;
+     height: 392px;
+     left: 40px;
+     top: 1100px;
+   }
+   .quote img {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 260px;
+    top: 108px;
+   }
+   .qText {
+    position: absolute;
+    width: 730px;
+    height: 158px;
+    left: 473px;
+    top: 110px;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+   }
+   .tutorials {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 1228px;
+    height: 450px;
+    left: 106px;
+    top: 1572px;
+    font-family: 'Source Sans Pro';
+   }
+   .tutorials h1 {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    justify-content: start;
+    position: absolute;
+    left: 39.25%;
+    top: calc(50% - 40px/2 - 205px);
+   }
+   .tuto {
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     top: 115px;
+     left: 60px;
+   }
+   .video img {
+    width: 255px;
+    height: 154px;
+    
+   }
+   .video h2 {
+     padding-left: 10px;
+     font-size: 16px;
+     font-weight: bold;
+   }
+   .video p {
+     padding-left: 10px;
+     font-size: 14px;
+     font-weight: 300;
+     width: 242px;
+     height: 48px;
+   }
+   .author img {
+    padding-left: 10px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: auto;
+    top: 261px;
+   }
+
+   .author h3 {
+    position: absolute;
+    top: 255px;
+    left: auto;
+    padding-left: 50px;
+    font-size: 14px;
+    color: #c271ff;
+   }
+   .starc {
+     padding-left: 40px;
+   }
+   .star img {
+     padding-left: 10px;
+     position: relative;
+     width: 15px;
+     height: 15px;
+     top: 40px;
+   }
+   .min {
+    position: relative;
+    height: 27px;
+    left: 60%;
+    top: 5px;
+    color: #c271ff;
+    font-weight: 600;
+   }
+.membership {
+  background-color: #071629;
+  position: absolute;
+  width: 1440px;
+  height: 502px;
+  left: 40px;
+  top: 2109px;
 }
-.block p{
-  display: flex;
-  flex-direction: column;
+.membership h1{
   position: relative;
-  top: 25%;
-  right: 40%;
-  margin-left: 300px;
-  font-style: bold;
-  font-weight: 400;
+  top: 70px;
+  color: white;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  text-align: center;
 }
-  
-blockquote{
-  color: #fff;
-  font-size: 15px;
-  font-weight: 200;
-  width: 670px;
-  text-align: right;
+.membContent{
+  display: flex;
+  position: relative;
+  top: 168px;
+  left: 204px;
+  width: 1112px;
+  height: 282px;
 }
+.membContent button{
+  position: absolute;
+left: 39%;
+top: 65%;
+
+}
+.dot {
+  color: white;
+  font-family: 'Source Sans Pro';
+  position: relative;
+  text-align: center;
+  width: 257px;
+  height: 153px;
+}
+.dot img{
+  width: 43.5px;
+  height: 35.5;
+}
+.dot h2{
+  font-size: 18px;
+  font-weight: 500;
+}
+.dot p {
+  font-size: 14px;
+  font-weight: 300;
+  width: 215px;
+  height: 52px;
+  padding-inline: 21px;
+}
+.faq{
+  font-family: "Source Sans Pro";
+  position: absolute;
+  width: 920px;
+  height: 707px;
+  left: 289px;
+  top: 2678px;
+}
+.faq h1{
+  text-align: center;
+  font-weight: 300;
+  font-size: 60px;
+}
+.faqContent1 h2{
+  font-weight: bold;
+  font-size: 16px;
+}
+.faqContent1 p{
+  font-size: 14px;
+  color: #07162980;
+}
+.fc1 {
+  position: absolute;
+  left: 0%;
+  top: 21%;
+  width: 350px;
+  height: 242px;
+}
+.fc2 {
+  position: absolute;
+  left: 62%;
+  top: 21%;
+  width: 350px;
+  height: 242px;
+}
+.faqContent2 h2{
+  font-weight: bold;
+  font-size: 16px;
+}
+.faqContent2 p{
+  font-size: 14px;
+  color: #07162980;
+}
+.fc3 {
+  position: absolute;
+  left: 0%;
+  top: 66%;
+  width: 350px;
+  height: 242px;
+}
+.fc4 {
+  position: absolute;
+  left: 62%;
+  top: 66%;
+  width: 350px;
+  height: 242px;
+}
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 249px;
+  left: 40px;
+  top: 3469px;
+  background-color: #071629;
+}
+.footer p {
+  position: absolute;
+  left: 47%;
+  top: calc(50% - 15px/2 + 78px);;
+  font-family: 'Source Sans Pro';
+  color: white;
+  font-size: 12px;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+}
+.flogo {
+  position: absolute;
+  left: 11.46%;
+  top: 38.15%;
+  width: 169px;
+  height: 30px;
+}
+.social {
+  display: flex;
+  position: absolute;
+  width: 130px;
+  height: 30px;
+  left: 1070px;
+  top: 90px;
+}
+.social img {
+  padding-inline: 20px;
+}
+
+
