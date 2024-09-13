@@ -48,4 +48,3 @@ class LIFOCache(BaseCaching):
         popped = self.queue.pop()
         del self.cache_data[popped]
         print("DISCARD: " + str(popped))
-        
