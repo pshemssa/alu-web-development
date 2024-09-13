@@ -51,3 +51,4 @@ class LRUCache(BaseCaching):
         popped = self.queue.popleft()
         del self.cache_data[popped]
         print("DISCARD: " + str(popped))
+        
