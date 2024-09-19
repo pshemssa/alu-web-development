@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+"""
+Route module for the API
+"""
+
 from flask import jsonify, abort
 from api.v1.views import app_views
 
